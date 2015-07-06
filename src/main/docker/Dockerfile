@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre
+FROM java:openjdk-7-jre
 VOLUME /tmp
 ADD hello-world-1-SNAPSHOT.jar app.jar
 RUN bash -c 'touch /app.jar'
