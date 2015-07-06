@@ -9,4 +9,4 @@ if [ $? == 0 ]; then
 	docker rm -f ${IMAGE}
 fi
 
-docker run --name ${IMAGE} -p 8080:8080 -t newbiz/hello-world
+docker run --name ${IMAGE} -p 8080:8080 -t newbizindustries/hello-world
